@@ -1,0 +1,38 @@
+h1{
+    border: 1px solid black;
+    text-align: center;
+    color:blue;
+    letter-spacing: 1px;
+}
+h2{
+    border: 1px solid black;
+    text-align:center;
+    letter-spacing: 1px;
+    color:purple;
+}
+p{
+    text-indent:10px;
+    color:white;
+}
+table{
+    text-align:center;
+    border-color: cadetblue;
+}
+#caramel{
+    text-align:center;
+    Color:darkorange;
+}
+#CaramelPhoto{
+    float:left;
+}
+#neko{
+    text-align:center;
+    color:black;
+}
+#NekoPhoto
+{
+
+}
+.Texte{
+
+}
