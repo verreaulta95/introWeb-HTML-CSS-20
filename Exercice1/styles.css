@@ -10,10 +10,16 @@ h1{
 h2{
     color:red;
 }
+li{
+    letter-spacing:1px;
+}
 .metier{
     color:purple;
     font-weight:bold;
 }
-#imageWeb{
-    float:left;
+
+#Intro{
+    text-transform: uppercase;
+    color:green;
+    font-weight:bold;
 }
