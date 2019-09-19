@@ -24,6 +24,7 @@ table{
 }
 #CaramelPhoto{
     float:left;
+    clear:left;
 }
 #neko{
     text-align:center;
@@ -31,8 +32,12 @@ table{
 }
 #NekoPhoto
 {
-
+    float:left;
 }
 .Texte{
+
+}
+.Texte1{
+    clear:left;
 
 }
