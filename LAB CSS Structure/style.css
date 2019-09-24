@@ -1,0 +1,16 @@
+@charset"UTF-8";
+/*general*/
+body {
+	margin: 0px;
+	padding: 0px;
+	font: 0.8em Verdana;
+	display: inline;
+}
+/*main définit la largeur */
+main {
+	width: 1140px;
+}
+/*permet d'enlever les marges qui se place automatique par le navigateur*/
+header p, nav p, aside p, section p, article p, footer p {
+	margin:0px;
+}
