@@ -75,7 +75,7 @@ article{
 	float:left;
 	background-color:white;
 	width:40%;
-	height: 60%;
+	height: auto;
 	margin: 2%;
 	border:red solid 2px;
 	text-align:center;
