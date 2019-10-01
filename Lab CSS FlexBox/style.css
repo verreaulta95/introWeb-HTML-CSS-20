@@ -1,0 +1,18 @@
+@charset"UTF-8";
+.page {
+    background-color: red;
+
+}
+header{
+   background-color: green;
+}
+section{
+   background-color: aqua;
+}
+aside{
+   background-color: yellow;
+}
+footer
+{
+   background-color: gray;
+}

@@ -1,0 +1,38 @@
+body { margin: 0; padding: 0; border: 0; }
+
+section {
+  background-color: lightgrey;
+	display:flex;
+	flex-wrap: wrap;
+
+}
+.boite{
+	min-height: 75px;
+	min-width: 75px;
+}
+.element1{ 
+	background-color: #1abc9c; 
+}
+.element2{ 
+	background-color: #3498db; 
+}
+.element3{
+	background-color: #9b59b6; 
+}
+.element4{ 
+	background-color: #e67e22; 
+}
+.element5{ 
+	background-color: #e74c3c;
+}
+.element6{
+	background-color: #05ffb0;
+	flex: auto;
+}
+
+section{
+
+}
+
+
+

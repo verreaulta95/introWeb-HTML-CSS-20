@@ -4,8 +4,7 @@ section {
   background-color: lightgrey;
 	display:flex;
 	flex-wrap: wrap;
-	flex-direction: column;
-	height: 500px;
+
 }
 div{
 	display: flex;
