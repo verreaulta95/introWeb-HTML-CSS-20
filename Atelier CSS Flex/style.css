@@ -5,28 +5,34 @@ body{margin: 0; padding: 0;}
 #main {
 	display: flex;
 	flex-wrap: wrap;
-    height: 400px;
+
 }
 header{
     width:100%;
-    background:green;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-around;
+}
 
-}
-header:hover{
-    background-color: grey;
-}
 h1{
     text-align:center;
 }
 #topnav{
-    /*position:fixed;*/
-
+    padding: 14px 16px;
+    width: 100%;
+}
+a:hover{
+    background-color:grey;
+}
+a{
+    color: white;
+    padding:20px;
 }
 aside{
     width: 20%;
     background: yellow;
-
-
 }
 #droite{
     order: 1;
@@ -35,10 +41,17 @@ section{
     width: 60%;
     order: 2;
     background: blue;
-    text-align: center;
+    align-items: center;
+
 }
 #gauche{
     order: 3;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 50px;
 }
 #mosaic{
     flex-direction: column;
@@ -46,10 +59,15 @@ section{
     height:500px;
     align-items: center;
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
 }
 footer{
     width:100%;
     order:4;
     background:pink;
-    height: 40px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
