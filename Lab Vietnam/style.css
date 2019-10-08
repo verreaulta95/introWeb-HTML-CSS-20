@@ -1,0 +1,196 @@
+@charset"UTF-8";
+body {
+		color: #072527;
+		font: 1em verdena, sans-serif;
+}
+
+.page {
+	display : flex;
+    flex-wrap: wrap;  
+}
+header{
+   flex-basis: 100%;
+   min-height: 80px;
+}
+nav{
+	 order:1;
+	 display : flex;
+	 align-items:center;
+	 justify-content: center;
+	 flex-basis: 100%;
+	 flex-direction: row;
+	 background-color: #52BFF6;
+	 height:73px;
+}
+nav a {
+		color: #ffffff;
+		font-family: 'Roboto Condensed', sans-serif;
+		padding: 20px;
+		text-decoration: none;
+		font-size: 30px;		
+}
+#menu a:hover {
+		background: #3092D3;
+}
+#menu a:active {
+		background: #2C4863;
+
+}
+#slider{
+	order:2;
+	margin:0 auto;
+}
+#info{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	order:2;
+	width: 100%;
+}
+/* il position les deux celui du centre et le footer */
+section{
+	 display: flex;
+	 justify-content:center;
+	 background: #F4F6EB;
+	 margin-bottom:2%;
+
+}
+#verticale{
+		 display:flex;
+		 flex-flow: column wrap;
+		 flex-basis:44%;
+}
+section figure{
+	height: 320px;
+	width: 320px;
+    margin-left:10px;
+}
+section figure img {
+		height: 320px;
+		width: 320px;		
+}
+		
+section article{
+	height: auto;
+}
+
+section article h1, aside h1 {
+		color: #2C4863;
+		font-size: 35px;
+		line-height:1;
+		margin-bottom:5px;
+		text-align: left;
+}
+
+section article h2 {
+		color: #3092D3;
+		font-size: 25px;
+		margin-bottom: 20px;
+}
+section article p {
+		text-align: justify;
+		padding-right:5%;
+	}
+#info section figure, #info section figure img {
+		border-top-left-radius: 175px;
+		border-top-right-radius: 175px;
+		height: 350px;
+		width: 350px;
+	}
+	
+aside{
+   flex-basis: 10%;
+   min-height: 100px;
+   order:4;
+  
+ 
+}
+aside h1 {
+	text-align: center;
+
+}
+aside article blockquote {
+		font: 18px 'Roboto Condensed', sans-serif;
+		text-align: center;
+	}
+aside article blockquote>span {
+		color: #3092D3;
+		font-size: 30px;
+		font-weight: bold;
+}
+aside article figure {
+		max-height: 210px;
+		max-width: 210px;
+}
+article figure img {
+		border-top-left-radius: 105px;
+		border-top-right-radius: 105px;
+		width: 100%;
+}
+
+/* pied de page */
+footer
+{
+    flex-basis: 100%;
+    background-color: gray;
+    min-height: 80px;
+    order:5;
+    background-color: #2C4863;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 300px;
+	padding: 20px 15px;
+	width: 100%;
+	text-align:center;
+	padding-top: 0;
+}
+
+footer nav {
+	background: #2C4863;
+}
+footer nav a {
+		color: #ffffff;
+		font-size: 18px;
+		margin: 0 5px;
+}
+footer nav a:hover {
+		color: #52BFF6;
+}
+footer section {
+		margin-bottom: 20px;
+		background-color: #2C4863;
+}
+footer h1 {
+		font-size: 30px;
+		font-weight: bold;
+}
+footer section a {
+		margin: 0 40px;
+}
+footer section a img {
+		height: 80px;
+		opacity: 0.5;
+		transition: opacity .4s;
+		width: 80px;
+}
+footer section a:hover img {
+		opacity: 1;
+}
+footer h1>span {
+		color: #52BFF6;
+}
+footer blockquote {
+		font-size: 14px;
+}
+/* destinations */
+
+table{
+	border: 1px solid black;
+	text-align: center;
+}
+th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
