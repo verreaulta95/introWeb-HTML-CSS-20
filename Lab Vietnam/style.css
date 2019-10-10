@@ -53,7 +53,7 @@ section{
 	 justify-content:center;
 	 background: #F4F6EB;
 	 margin-bottom:2%;
-
+	background-color: lightblue;
 }
 #verticale{
 		 display:flex;
@@ -194,3 +194,8 @@ th{
 	border-collapse: collapse;
 	text-align: center;
 }
+#destination{
+	color: darkblue;
+	text-align: center;
+}
+
