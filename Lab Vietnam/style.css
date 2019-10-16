@@ -53,7 +53,7 @@ section{
 	 justify-content:center;
 	 background: #F4F6EB;
 	 margin-bottom:2%;
-	background-color: lightblue;
+
 }
 #verticale{
 		 display:flex;
@@ -183,19 +183,120 @@ footer h1>span {
 footer blockquote {
 		font-size: 14px;
 }
-/* destinations */
+/* ------------   destinations   -------------------- */
 
 table{
-	border: 1px solid black;
+	border: 2px solid white;
 	text-align: center;
 }
 th{
-	border: 1px solid black;
+	border: 2px solid white;
 	border-collapse: collapse;
 	text-align: center;
 }
-#destination{
-	color: darkblue;
+#destinationH1{
+	color: #2C4863;
 	text-align: center;
+	font-size: 60px;
+}
+#villesH1{
+	color: white;
+	margin-bottom: 20px;
+}
+#sectionDestination{
+	background-color: dodgerblue;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.thDestination1{
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+
+}
+#thDestination2{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+#imageDestination{
+	margin-left: 50px;
+}
+td{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
 }
 
+
+
+/*  -------- CONTACT ------ */
+
+
+#Contact{
+	background-color: dodgerblue;
+	width: 500px;
+	margin-left: 180px;
+	padding-top: 25px;
+	padding-bottom:15px;
+}
+
+#informationH1{
+	text-align: center;
+	font-size: 35px;
+}
+
+form{
+	padding-left: 50px;
+}
+label{
+	display:  inline-block;
+	width: 15%;
+	margin-bottom: 15px;
+	margin-right: 60px;
+}
+#Nom{
+	padding-right: 75px;
+}
+#Prenom{
+	padding-right: 75px;
+}
+#Courriel{
+	padding-right: 75px;
+}
+#inputSubmit{
+	padding: 3%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#inputReset{
+	padding: 3%;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+textarea{
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+#labelCommentaire{
+	margin-top: 25px;
+}
+span{
+	color: red;
+}
+#submit{
+	margin-left: 150px;
+	margin-bottom: 15px;
+	margin-right:25px;
+}
+#reset {
+	margin-left: 150px;
+	margin-right: 25px;
+
+}
